@@ -6,9 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
     <title>TailwindCSS</title>
+
   </head>
   <body class="p-20">
     <!-- https://tailwindcss.com/docs/position -->
+    <h1 class="mb-10">1.Position</h1>
+    <div class="relative h-40 mb-10 bg-gray-200">
+      <div class="absolute top-0 left-0 p-2 text-white bg-blue-500">Top Left</div>
+      <div class="absolute top-0 right-0 p-2 text-white bg-blue-500">Top Right</div>
+      <div class="absolute bottom-0 left-0 p-2 text-white bg-blue-500">Bottom Left</div>
+      <div class="absolute bottom-0 right-0 p-2 text-white bg-blue-500">Bottom Right</div>
+      <div class="absolute p-2 text-white transform -translate-x-1/2 -translate-y-1/2 bg-blue-500 top-1/2 left-1/2">Center</div>
+    
+    </div>
+    
     <!-- https://tailwindcss.com/docs/display -->
+    <h1 class="mb-3">2.Display</h1>  
+    
+    <div class="p-10 mb-10 bg-indigo-300 w-[600px]">
+    <div class="inline">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio, reiciendis laboriosam maiores voluptate vitae delectus beatae recusandae velit facere ipsam adipisci iusto blanditiis molestiae quasi a.</div>
+    <div class="inline-block bg-orange-100">This is inline block display Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi laborum et a quaerat voluptatem sint sapiente consequatur voluptatum? Distinctio non nemo nesciunt quod harum voluptate hic amet, illum provident perferendis.</div>
+    <div class="block bg-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde nisi eaque fuga voluptatem debitis esse error! Earum sint neque quod iusto, assumenda corrupti soluta impedit nobis laudantium fugiat, praesentium asperiores.</div>
+    <div class="hidden">Hello</div>
+  </div>
+       
   </body>
 </html>
